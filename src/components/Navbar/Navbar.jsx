@@ -3,13 +3,33 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
-    const navItems = <>
-        <Link to={'/'}><li><a>Home</a></li></Link>
-        <Link to={'/about'}><li><a>About</a></li></Link>
-    </>
+    const scrollTo = (id) => {
+        if (id === "home") {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        } else {
+            const element = document.getElementById(id);
+            if (element) {
+                element.scrollIntoView({
+                    behavior: "smooth",
+                });
+            }
+        }
+    };
+
+    const navItems = (
+        <>
+            <li><Link to={'/'} onClick={() => scrollTo("home")}>Home</Link></li>
+            <li><a href="#intro" onClick={() => scrollTo("intro")}>Introduction</a></li>
+            <li><a href="#education" onClick={() => scrollTo("education")}>Education</a></li>
+            <li><a href="#skills" onClick={() => scrollTo("skills")}>Skills</a></li>
+        </>
+    );
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 fixed">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

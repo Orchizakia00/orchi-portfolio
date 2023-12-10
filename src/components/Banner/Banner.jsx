@@ -3,7 +3,7 @@ import { FaDownload } from "react-icons/fa";
 
 const Banner = () => {
     return (
-        <div className="hero min-h-[calc(100vh-100px)] bg-white mb-12">
+        <div className="hero min-h-screen bg-white mb-12">
             <div className="hero-content flex-col lg:flex-row gap-8">
                 <img src={banner} className="max-w-sm rounded-lg flex-1" />
                 <div className='flex-1'>
