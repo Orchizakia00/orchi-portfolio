@@ -57,7 +57,7 @@ const Project3 = () => {
                         </div>
                         <div>
                             <h2 className="text-xl font-bold mt-4">Links:</h2>
-                            <div className="flex gap-6 mt-2">
+                            <div className="flex gap-3 mt-2">
                                 <Link to={'https://github.com/Orchizakia00/tasty-hub-client'}><p className="btn btn-outline btn-accent mt-2">Client Side Repository</p></Link> <br />
                                 <Link to={'https://github.com/Orchizakia00/tasty-hub-server'}><p className="btn btn-outline btn-accent mt-2">Server Side Repository</p></Link><br />
                             </div>

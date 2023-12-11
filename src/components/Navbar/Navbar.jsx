@@ -26,6 +26,7 @@ const Navbar = () => {
             <li><a href="#education" onClick={() => scrollTo("education")}>Education</a></li>
             <li><a href="#skills" onClick={() => scrollTo("skills")}>Skills</a></li>
             <li><a href="#projects" onClick={() => scrollTo("projects")}>Projects</a></li>
+            <li><a href="#contact" onClick={() => scrollTo("contact")}>Contact</a></li>
         </>
     );
 
