@@ -19,7 +19,7 @@ const Education = () => {
                     <div className="card-body">
                         <h2 className="card-title">Higher Secondary School Certificate - HSC</h2>
                         <p>2018</p>
-                        <p><span className="font-bold">CGPA:</span> 4.33</p>
+                        <p><span className="font-bold">GPA:</span> 4.33</p>
                     </div>
                 </div>
                 <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -27,7 +27,7 @@ const Education = () => {
                     <div className="card-body">
                         <h2 className="card-title">Secondary School Certificate - SSC</h2>
                         <p>2016</p>
-                        <p><span className="font-bold">CGPA:</span> 5.00</p>
+                        <p><span className="font-bold">GPA:</span> 5.00</p>
                     </div>
                 </div>
             </div>

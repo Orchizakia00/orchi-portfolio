@@ -1,13 +1,13 @@
-import { FaCss3, FaGit, FaGitSquare, FaHtml5, FaJs, FaNodeJs, FaReact } from "react-icons/fa";
+import { FaNodeJs, FaReact } from "react-icons/fa";
+import css from "../../assets/icons/css.png";
+import ex from "../../assets/icons/ex.png";
+import firebase from "../../assets/icons/firebase.png";
+import git from "../../assets/icons/git.png";
+import html from "../../assets/icons/html.png";
+import js from "../../assets/icons/js.png";
+import mongodb from "../../assets/icons/mongodb.png";
+import tailwind from "../../assets/icons/tailwind.png";
 import SectionTitle from "../Shared/SectionTitle/SectionTitle";
-import tailwind from "../../assets/icons/tailwind.png"
-import js from "../../assets/icons/js.png"
-import css from "../../assets/icons/css.png"
-import html from "../../assets/icons/html.png"
-import git from "../../assets/icons/git.png"
-import firebase from "../../assets/icons/firebase.png"
-import mongodb from "../../assets/icons/mongodb.png"
-import ex from "../../assets/icons/ex.png"
 
 const Skills = () => {
     return (
