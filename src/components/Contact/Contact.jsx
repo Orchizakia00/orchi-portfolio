@@ -23,7 +23,7 @@ const Contact = () => {
     };
 
     return (
-        <div id="contact" className="w-[70%] mx-auto">
+        <div id="contact" className="w-[80%] mx-auto">
             <SectionTitle heading={'Get In Touch'}></SectionTitle>
             <form onSubmit={sendEmail} className="card-body">
                 <div className="form-control">

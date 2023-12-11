@@ -5,7 +5,7 @@ const Education = () => {
     return (
         <div id="education" className="mt-8 min-h-[550px]">
             <SectionTitle heading={'Education'}></SectionTitle>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-12 lg:w-full w-[90%] mx-auto">
                 <div className="card card-compact w-96 bg-base-100 shadow-xl">
                     <figure><img src="https://i.ibb.co/x8yKMsZ/nubt.jpg" className="h-[200px] w-[200px]" alt="Shoes" /></figure>
                     <div className="card-body">

@@ -13,7 +13,7 @@ const Skills = () => {
     return (
         <div id='skills' className="my-8">
             <SectionTitle heading={'Skills'}></SectionTitle>
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 my-16">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 my-16 w-[55%] lg:w-full mx-auto">
 
                 <div className="card card-compact w-56 bg-base-100 shadow-lg">
                     <div className="text-center mt-5">

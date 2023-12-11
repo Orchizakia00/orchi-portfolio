@@ -4,7 +4,7 @@ import banner from '../../assets/banner/orchi-white-bg.png';
 
 const Banner = () => {
     return (
-        <div className="hero min-h-screen bg-white mb-12">
+        <div className="hero min-h-screen bg-white mb-12 lg:p-0 p-8">
             <div className="hero-content flex-col lg:flex-row gap-32">
                 <img src={banner} className="max-w-xs rounded-lg flex-1" />
                 <div className='flex-1 max-w-lg'>
