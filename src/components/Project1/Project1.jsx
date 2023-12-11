@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import { FaExternalLinkAlt } from "react-icons/fa";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
@@ -58,7 +59,7 @@ const Project1 = () => {
                                 <Link to={'https://github.com/Orchizakia00/reso-nest-client'}><p className="btn btn-outline btn-accent mt-2">Client Side Repository</p></Link> <br />
                                 <Link to={'https://github.com/Orchizakia00/reso-nest-server'}><p className="btn btn-outline btn-accent mt-2">Server Side Repository</p></Link><br />
                             </div>
-                            <Link to={'https://reso-nest.web.app'}><button className="btn btn-link text-accent">Visit Website</button></Link>
+                            <Link to={'https://reso-nest.web.app'}><button className="btn btn-outline btn-accent mt-3 text-accent text-md">Visit Website <FaExternalLinkAlt size={15} /></button></Link>
                         </div>
                     </div>
                 </div>

@@ -35,7 +35,9 @@ const Banner = () => {
                             <p className=''>Jashore, Khulna, Bangladesh</p>
                         </div>
                     </div>
-                    <button className="btn btn-accent"><FaDownload /> Download Resume</button>
+                    <Link to={'https://drive.google.com/uc?export=download&id=1mKRknaUlYyD1aKaJE9E2HBJrgVe71nLi'}>
+                        <button className="btn btn-accent"><FaDownload /> Download Resume</button>
+                    </Link>
                 </div>
             </div>
         </div>

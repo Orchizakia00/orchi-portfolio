@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import { FaExternalLinkAlt } from "react-icons/fa";
 import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
 
@@ -59,7 +60,7 @@ const Project2 = () => {
                                 <Link to={'https://github.com/Orchizakia00/team-tracker-client'}><p className="btn btn-outline btn-accent mt-2">Client Side Repository</p></Link> <br />
                                 <Link to={'https://github.com/Orchizakia00/team-tracker-server'}><p className="btn btn-outline btn-accent mt-2">Server Side Repository</p></Link><br />
                             </div>
-                            <Link to={'https://team-tracker-31435.web.app'}><button className="btn btn-link text-accent">Visit Website</button></Link>
+                            <Link to={'https://team-tracker-31435.web.app'}><button className="btn btn-outline btn-accent mt-3 text-accent">Visit Website <FaExternalLinkAlt size={15}/></button></Link>
                         </div>
                     </div>
                 </div>
