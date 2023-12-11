@@ -30,19 +30,19 @@ const Contact = () => {
                     <label className="label">
                         <span className="label-text">Name</span>
                     </label>
-                    <input type="text" placeholder="Your Name" className="input input-bordered" required />
+                    <input type="text" name="name" placeholder="Your Name" className="input input-bordered" required />
                 </div>
                 <div className="form-control">
                     <label className="label">
                         <span className="label-text">Email</span>
                     </label>
-                    <input type="email" placeholder="Your Email" className="input input-bordered" required />
+                    <input type="email" name="email" placeholder="Your Email" className="input input-bordered" required />
                 </div>
                 <div className="form-control">
                     <label className="label">
                         <span className="label-text">Message</span>
                     </label>
-                    <textarea type="text" className="textarea textarea-bordered" placeholder="Your Message"></textarea>
+                    <textarea type="text" name="message" className="textarea textarea-bordered" placeholder="Your Message"></textarea>
                 </div>
                 <div className="form-control mt-6">
                     <button className="btn btn-accent">Send</button>
