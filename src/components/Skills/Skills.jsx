@@ -16,7 +16,7 @@ const Skills = () => {
             <SectionTitle heading={'Skills'}></SectionTitle>
 
             <Marquee className="gap-2">
-                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg">
+                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg mr-2">
                     <div className="text-center mt-5">
                         <div className="radial-progress text-accent text-center" style={{ "--value": 70 }} role="progressbar">70%</div>
                     </div>
@@ -27,7 +27,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg">
+                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg mr-2">
                     <div className="text-center mt-5">
                         <div className="radial-progress text-accent text-center" style={{ "--value": 70 }} role="progressbar">70%</div>
                     </div>
@@ -39,7 +39,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg">
+                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg mr-2">
                     <div className="text-center mt-5">
                         <div className="radial-progress text-accent text-center" style={{ "--value": 90 }} role="progressbar">90%</div>
                     </div>
@@ -50,7 +50,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg">
+                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg mr-2">
                     <div className="text-center mt-5">
                         <div className="radial-progress text-accent text-center" style={{ "--value": 90 }} role="progressbar">90%</div>
                     </div>
@@ -61,7 +61,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg">
+                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg mr-2">
                     <div className="text-center mt-5">
                         <div className="radial-progress text-accent text-center" style={{ "--value": 90 }} role="progressbar">90%</div>
                     </div>
@@ -73,7 +73,7 @@ const Skills = () => {
                 </div>
 
 
-                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg">
+                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg mr-2">
                     <div className="text-center mt-5">
                         <div className="radial-progress text-accent text-center" style={{ "--value": 20 }} role="progressbar">20%</div>
                     </div>
@@ -84,7 +84,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg">
+                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg mr-2">
                     <div className="text-center mt-5">
                         <div className="radial-progress text-accent text-center" style={{ "--value": 70 }} role="progressbar">70%</div>
                     </div>
@@ -94,7 +94,7 @@ const Skills = () => {
                         <p>Intermediate</p>
                     </div>
                 </div>
-                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg">
+                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg mr-2">
                     <div className="text-center mt-5">
                         <div className="radial-progress text-accent text-center" style={{ "--value": 20 }} role="progressbar">20%</div>
                     </div>
@@ -104,7 +104,7 @@ const Skills = () => {
                         <p>Basic</p>
                     </div>
                 </div>
-                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg">
+                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg mr-2">
                     <div className="text-center mt-5">
                         <div className="radial-progress text-accent text-center" style={{ "--value": 70 }} role="progressbar">70%</div>
                     </div>
@@ -114,7 +114,7 @@ const Skills = () => {
                         <p>Intermediate</p>
                     </div>
                 </div>
-                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg">
+                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg mr-2">
                     <div className="text-center mt-5">
                         <div className="radial-progress text-accent text-center" style={{ "--value": 20 }} role="progressbar">20%</div>
                     </div>
