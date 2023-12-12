@@ -27,7 +27,7 @@ const Contact = () => {
     return (
         <div id="contact" className="mt-10">
             <SectionTitle heading={'Get In Touch'}></SectionTitle>
-            <div className="flex gap-10 flex-col lg:flex-row">
+            <div className="flex lg:gap-10 flex-col lg:flex-row">
                 <div className="flex-1">
                     <Lottie loop={true} animationData={animation}></Lottie>
                 </div>

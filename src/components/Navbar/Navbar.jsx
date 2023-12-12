@@ -52,7 +52,7 @@ const Navbar = () => {
     );
 
     return (
-        <div className="navbar bg-base-200 bg-opacity-50 rounded text-black h-[20px] fixed z-10 dark:text-white">
+        <div className="navbar bg-base-200 bg-opacity-50 rounded h-[20px] fixed z-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -63,11 +63,15 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl">Zakia Tanzim Orchi</a>
+
             </div>
-            <div className="navbar-end hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
-                    {navItems}
-                </ul>
+
+            <div className="navbar-end">
+                <div className="hidden lg:flex">
+                    <ul className="menu menu-horizontal px-1 ">
+                        {navItems}
+                    </ul>
+                </div>
                 <label className="swap swap-rotate">
 
                     {/* this hidden checkbox controls the state */}
@@ -81,6 +85,7 @@ const Navbar = () => {
 
                 </label>
             </div>
+
         </div>
     );
 };
