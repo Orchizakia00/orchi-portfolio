@@ -1,5 +1,7 @@
+import Lottie from "lottie-react";
 import SectionTitle from "../Shared/SectionTitle/SectionTitle";
 import emailjs from 'emailjs-com';
+import animation from '../../assets/animations/Animation - 1702365921053.json'
 
 const Contact = () => {
     const sendEmail = (e) => {
@@ -23,31 +25,36 @@ const Contact = () => {
     };
 
     return (
-        <div id="contact" className="w-[80%] mx-auto">
+        <div id="contact" className="mt-10">
             <SectionTitle heading={'Get In Touch'}></SectionTitle>
-            <form onSubmit={sendEmail} className="card-body">
-                <div className="form-control">
-                    <label className="label">
-                        <span className="label-text">Name</span>
-                    </label>
-                    <input type="text" name="name" placeholder="Your Name" className="input input-bordered" required />
+            <div className="flex gap-10 flex-col lg:flex-row">
+                <div className="flex-1">
+                    <Lottie loop={true} animationData={animation}></Lottie>
                 </div>
-                <div className="form-control">
-                    <label className="label">
-                        <span className="label-text">Email</span>
-                    </label>
-                    <input type="email" name="email" placeholder="Your Email" className="input input-bordered" required />
-                </div>
-                <div className="form-control">
-                    <label className="label">
-                        <span className="label-text">Message</span>
-                    </label>
-                    <textarea type="text" name="message" className="textarea textarea-bordered" placeholder="Your Message"></textarea>
-                </div>
-                <div className="form-control mt-6">
-                    <button className="btn btn-accent">Send</button>
-                </div>
-            </form>
+                <form onSubmit={sendEmail} className="card-body flex-1 mt-16">
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text">Name</span>
+                        </label>
+                        <input type="text" name="name" placeholder="Your Name" className="input input-bordered" required />
+                    </div>
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text">Email</span>
+                        </label>
+                        <input type="email" name="email" placeholder="Your Email" className="input input-bordered" required />
+                    </div>
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text">Message</span>
+                        </label>
+                        <textarea type="text" name="message" className="textarea textarea-bordered" placeholder="Your Message"></textarea>
+                    </div>
+                    <div className="form-control mt-6">
+                        <button className="btn btn-accent">Send</button>
+                    </div>
+                </form>
+            </div>
 
         </div>
     );

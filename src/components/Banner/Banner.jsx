@@ -1,11 +1,14 @@
 import { FaDownload, FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import banner from '../../assets/banner/orchi-white-bg.png';
+import banner from '../../assets/banner/orchi-nobg.png';
+import Lottie from "lottie-react";
+import animation from '../../assets/animations/image-Animation - 1702366233061.json'
 
 const Banner = () => {
     return (
-        <div className="hero min-h-screen bg-white mb-12 lg:p-0 p-8">
+        <div className="hero min-h-screen bg-base-100 mb-12 lg:p-0 p-8">
             <div className="hero-content flex-col lg:flex-row gap-32">
+            {/* <Lottie loop={true} animationData={animation}></Lottie> */}
                 <img src={banner} className="max-w-xs rounded-lg flex-1" />
                 <div className='flex-1 max-w-lg'>
                     <p className="pb-2">Hi there, This is</p>
