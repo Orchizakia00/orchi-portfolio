@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
+import logo from '../../assets/logo/orchi-logo.png';
 
 const Navbar = () => {
 
@@ -62,7 +62,9 @@ const Navbar = () => {
                         {navItems}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Zakia Tanzim Orchi</a>
+                <a className="btn btn-ghost text-xl">
+                    <img src={logo} className="w-[40px] h-[40px]" alt="" />
+                    Zakia Tanzim Orchi</a>
 
             </div>
 
