@@ -21,12 +21,12 @@ const Banner = () => {
                                 'Zakia Tanzim',
                                 200,
                                 'Zakia Tanzim Orchi',
-                                // 200,
-                                // '',
+                                200,
+                                '',
                             ]}
                             // wrapper="span"
                             cursor={false}
-                            repeat={false}
+                            repeat={Infinity}
                             style={{ fontSize: '3em', fontWeight: 'bold', paddingBottom: '1.5rem', display: 'inline-block' }}
                         />
                     </div>
