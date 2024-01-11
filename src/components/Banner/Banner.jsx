@@ -1,16 +1,35 @@
 import { FaDownload, FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import banner from '../../assets/banner/orchi-nobg.png';
+import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
     return (
         <div className="hero min-h-screen bg-base-100 mb-12 lg:p-0 p-8">
             <div className="hero-content flex-col lg:flex-row gap-32">
-            {/* <Lottie loop={true} animationData={animation}></Lottie> */}
+                {/* <Lottie loop={true} animationData={animation}></Lottie> */}
                 <img data-aos="fade-right" src={banner} className="max-w-xs rounded-lg flex-1" />
-                <div  data-aos="fade-left" className='flex-1 max-w-lg'>
+                <div data-aos="fade-left" className='flex-1 max-w-lg'>
                     <p className="pb-2">Hi there, This is</p>
-                    <h1 className="text-5xl font-bold pb-6">Zakia Tanzim Orchi</h1>
+                    {/* <h1 className="text-5xl font-bold pb-6">Zakia Tanzim Orchi</h1> */}
+                    <div className="h-24">
+                        <TypeAnimation
+                            sequence={[
+                                500,
+                                'Zakia',
+                                200,
+                                'Zakia Tanzim',
+                                200,
+                                'Zakia Tanzim Orchi',
+                                // 200,
+                                // '',
+                            ]}
+                            // wrapper="span"
+                            cursor={false}
+                            repeat={false}
+                            style={{ fontSize: '3em', fontWeight: 'bold', paddingBottom: '1.5rem', display: 'inline-block' }}
+                        />
+                    </div>
                     <p className="pb-6 text-lg">MERN Stack Developer || Design and create websites using different JavaScript frameworks || Frontend Web Develpoment</p>
                     <div className='pb-6'>
                         <div className='flex gap-3 items-center pb-2'>
