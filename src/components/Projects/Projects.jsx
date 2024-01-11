@@ -1,18 +1,12 @@
 import { FaArrowRight } from "react-icons/fa";
-import Project1 from "../Project1/Project1";
-import Project2 from "../Project2/Project2";
-import Project3 from "../Project3/Project3";
-import SectionTitle from "../Shared/SectionTitle/SectionTitle";
 import { Link } from "react-router-dom";
+import SectionTitle from "../Shared/SectionTitle/SectionTitle";
 
 
 const Projects = () => {
     return (
         <div id="projects" className="my-20 lg:p-0">
             <SectionTitle heading={'Projects'}></SectionTitle>
-            {/* <Project1></Project1>
-            <Project2></Project2>
-            <Project3></Project3> */}
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-20 lg:w-full md:w-full w-[90%] mx-auto">
                 <div className="card card-compact w-96 bg-base-100 shadow-xl">
