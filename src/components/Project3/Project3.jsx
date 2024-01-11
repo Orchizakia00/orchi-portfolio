@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Project3 = () => {
     return (
-        <div className="my-16">
+        <div className="pt-16 px-4 lg:px-0 mb-8">
             <h2 className="text-2xl font-bold mb-6">Tasty Hub || E-commerce Website</h2>
             <Carousel className="text-center">
                 <div>

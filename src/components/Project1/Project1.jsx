@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Project1 = () => {
     return (
-        <div>
+        <div className="pt-16 px-4 lg:px-0 mb-8">
             <h2 className="text-2xl font-bold mb-6">Reso Nest || Hotel Management System</h2>
             <Carousel className="text-center">
                 <div>
