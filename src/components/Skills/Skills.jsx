@@ -6,6 +6,7 @@ import git from "../../assets/icons/git.png";
 import html from "../../assets/icons/html.png";
 import js from "../../assets/icons/js.png";
 import mongodb from "../../assets/icons/mongodb.png";
+import api from "../../assets/icons/api.png";
 import tailwind from "../../assets/icons/tailwind.png";
 import SectionTitle from "../Shared/SectionTitle/SectionTitle";
 import Marquee from "react-fast-marquee";
@@ -91,6 +92,16 @@ const Skills = () => {
                     <div className="card-body text-center">
                         <p className="flex justify-center"><img src={firebase} alt="" /></p>
                         <h2 className="font-bold text-2xl">Firebase</h2>
+                        <p>Intermediate</p>
+                    </div>
+                </div>
+                <div data-aos="flip-up" className="card card-compact w-56 bg-base-100 shadow-lg mr-2">
+                    <div className="text-center mt-5">
+                        <div className="radial-progress text-accent text-center" style={{ "--value": 70 }} role="progressbar">70%</div>
+                    </div>
+                    <div className="card-body text-center">
+                        <p className="flex justify-center"><img src={api} alt="" /></p>
+                        <h2 className="font-bold text-2xl">Rest API</h2>
                         <p>Intermediate</p>
                     </div>
                 </div>
