@@ -25,7 +25,7 @@ const Contact = () => {
     };
 
     return (
-        <div id="contact" className="mt-10">
+        <div id="contact" className="mt-10 pt-24">
             <SectionTitle heading={'Get In Touch'}></SectionTitle>
             <div className="flex lg:gap-10 flex-col lg:flex-row">
                 <div className="flex-1">

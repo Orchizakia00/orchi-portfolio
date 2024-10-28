@@ -13,7 +13,7 @@ import Marquee from "react-fast-marquee";
 
 const Skills = () => {
     return (
-        <div id='skills' className="my-8">
+        <div id='skills' className="my-8 pt-24">
             <SectionTitle heading={'Skills'}></SectionTitle>
 
             <Marquee className="gap-2">

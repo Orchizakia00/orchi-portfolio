@@ -5,7 +5,7 @@ import SectionTitle from "../Shared/SectionTitle/SectionTitle";
 
 const Projects = () => {
     return (
-        <div id="projects" className="my-20 lg:p-0">
+        <div id="projects" className="my-20 pt-24">
             <SectionTitle heading={'Projects'}></SectionTitle>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-20 lg:w-full md:w-full w-[90%] mx-auto">
