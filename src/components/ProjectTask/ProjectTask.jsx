@@ -1,32 +1,37 @@
 /* eslint-disable react/no-unescaped-entities */
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
+import taskImg1 from "../../assets/projects/taskImg1.png"
+import taskImg2 from "../../assets/projects/taskImg2.png"
+import taskImg3 from "../../assets/projects/taskImg3.png"
+import taskImg4 from "../../assets/projects/taskImg4.png"
+import taskImg5 from "../../assets/projects/taskImg5.png"
+import taskImg6 from "../../assets/projects/taskImg6.png"
 
-const Project1 = () => {
+const ProjectTask = () => {
     return (
         <div className="lg:w-[1200px] mx-auto">
             <div className="pt-10 px-4 lg:px-0 mb-8">
-                <h2 className="text-2xl font-bold mb-6">Reso Nest || Hotel Management System</h2>
+                <h2 className="text-2xl font-bold mb-6">Task Sync Pro || Task Management System</h2>
                 <Carousel className="text-center">
                     <div>
-                        <img src="https://i.ibb.co/VvBTvmt/Screenshot-2023-12-11-132631.png" />
+                        <img src={taskImg1} />
                     </div>
                     <div>
-                        <img src="https://i.ibb.co/RHSGHB5/Screenshot-2023-12-11-132808.png" />
+                        <img src={taskImg2} />
                     </div>
                     <div>
-                        <img src="https://i.ibb.co/qmPQ0H4/Screenshot-2023-12-11-132918.png" />
+                        <img src={taskImg3} />
                     </div>
                     <div>
-                        <img src="https://i.ibb.co/6YfHGdy/Screenshot-2023-12-11-133019.png" />
+                        <img src={taskImg4} />
                     </div>
                     <div>
-                        <img src="https://i.ibb.co/1Mv3KZ3/Screenshot-2023-12-11-133149.png" />
+                        <img src={taskImg5} />
                     </div>
                     <div>
-                        <img src="https://i.ibb.co/SnkngBb/Screenshot-2023-12-11-152724.png" />
+                        <img src={taskImg6} />
                     </div>
                 </Carousel>
                 <div className="mt-6">
@@ -35,23 +40,20 @@ const Project1 = () => {
                         <div className="flex-1">
                             <h2 className="text-xl font-bold">Features:</h2>
                             <ul className="list-disc ml-5 mt-4">
-                                <li>User can view the available rooms and see detailed information about the rooms.</li>
-                                <li>User can also view if there is any review available for the specific room given by any customer.</li>
-                                <li>User can also book any available room by submitting some informations about them and the date when they want to book the room.</li>
-                                <li>After booking user can update and delete their bookings. But they can only delete 2 days before their booking.</li>
-                                <li>After deleting user's booking the room will be available for other customer again.</li>
-                                <li>User can view testimonials of the hotel.</li>
+                                <li>Allows users to create, edit, and manage daily tasks within a comprehensive to-do list.</li>
+                                <li>Provides seamless task status updates, enabling users to move tasks between "To Do," "Ongoing," and "Completed" lists using drag-and-drop functionality.</li>
+                                <li>Enables task deletion, giving users full control over their task list.</li>
+                                <li>A “My Tasks” page provides a consolidated view of all tasks with real-time status indicators for streamlined organization.</li>
                             </ul>
                         </div>
                         <div className="flex-1">
                             <div>
                                 <h2 className="text-xl font-bold">Technologies:</h2>
                                 <ul className="list-disc ml-5 mt-4">
-                                    <li>Tailwind CSS is used for styling.</li>
-                                    <li>Firebase based authentication.</li>
-                                    <li>Jwt is implemented using cookies.</li>
-                                    <li>MongoDB is used for database.</li>
-                                    <li>AOS is used for scroll animations.</li>
+                                    <li>Tailwind CSS for a responsive, modern user interface.</li>
+                                    <li>Firebase for secure, real-time authentication.</li>
+                                    <li>MongoDB as the database for efficient task storage and retrieval.</li>
+                                    <li>React Drag and Drop for intuitive, interactive task management.</li>
                                 </ul>
                             </div>
                             <div>
@@ -60,21 +62,22 @@ const Project1 = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href='https://github.com/Orchizakia00/reso-nest-client'>
+                                        href='https://github.com/Orchizakia00/task-sync-client'>
                                         <p className="btn btn-outline btn-accent mt-2">Client Side Repository</p>
                                     </a> <br />
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href='https://github.com/Orchizakia00/reso-nest-server'>
+                                        href='https://github.com/Orchizakia00/task-sync-server'>
                                         <p className="btn btn-outline btn-accent mt-2">Server Side Repository</p>
                                     </a><br />
                                 </div>
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    href='https://reso-nest.web.app'>
-                                    <button className="btn btn-outline btn-accent mt-3 text-accent text-md">Visit Website <FaExternalLinkAlt size={15} /></button>
+                                    href='https://task-sync-27a0a.web.app'>
+                                    <button className="btn btn-outline btn-accent mt-3 text-accent">Visit Website <FaExternalLinkAlt size={15} />
+                                    </button>
                                 </a>
                             </div>
                         </div>
@@ -88,4 +91,4 @@ const Project1 = () => {
     );
 };
 
-export default Project1;
+export default ProjectTask;

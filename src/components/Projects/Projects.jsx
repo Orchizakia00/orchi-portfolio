@@ -38,7 +38,7 @@ const Projects = () => {
                         <h2 className="card-title">Task Sync Pro</h2>
                         <p>Task Management System</p>
                         <div className="card-actions justify-end">
-                            <Link to={'/project-two'}><button className="btn btn-accent">Details <FaArrowRight /> </button></Link>
+                            <Link to={'/project-task'}><button className="btn btn-accent">Details <FaArrowRight /> </button></Link>
                         </div>
                     </div>
                 </div>

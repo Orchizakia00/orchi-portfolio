@@ -39,11 +39,19 @@ const Banner = () => {
                         <div className='flex gap-4 pb-2'>
                             <div className='flex items-center'>
                                 <FaLinkedin size={20}></FaLinkedin>
-                                <Link to={'https://www.linkedin.com/in/zakia-tanzim-orchi-a2263a290/'}><p className='btn btn-ghost'>LinkedIn</p></Link>
+                                <a target="_blank"
+                                    rel="noopener noreferrer"
+                                    href='https://www.linkedin.com/in/zakia-tanzim-orchi-a2263a290/'>
+                                    <p className='btn btn-ghost'>LinkedIn</p>
+                                </a>
                             </div>
                             <div className='flex items-center'>
                                 <FaGithub size={20}></FaGithub>
-                                <Link to={'https://github.com/Orchizakia00'}><p className='btn btn-ghost'>GitHub</p></Link>
+                                <a target="_blank"
+                                    rel="noopener noreferrer"
+                                    href={'https://github.com/Orchizakia00'}>
+                                    <p className='btn btn-ghost'>GitHub</p>
+                                </a>
                             </div>
                         </div>
                         <div className='flex gap-3 items-center pb-4'>
