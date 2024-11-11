@@ -5,6 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
 
 const Project1 = () => {
+
     return (
         <div className="lg:w-[1200px] mx-auto">
             <div className="pt-10 px-4 lg:px-0 mb-8">

@@ -11,6 +11,7 @@ import Project1 from './components/Project1/Project1';
 import Project2 from './components/Project2/Project2';
 import Project3 from './components/Project3/Project3';
 import ProjectTask from './components/ProjectTask/ProjectTask';
+import ProjectShop from './components/ProjectShop/ProjectShop';
 
 
 const router = createBrowserRouter([
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: '/project-task',
     element: <ProjectTask />
+  },
+  {
+    path: '/project-shop',
+    element: <ProjectShop />
   },
 ]);
 

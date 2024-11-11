@@ -5,6 +5,7 @@ import taskImg from "../../assets/projects/taskImg1.png"
 import shopImg from "../../assets/projects/shopImg1.png"
 
 const Projects = () => {
+
     return (
         <div id="projects" className="my-20 pt-24">
             <SectionTitle heading={'Projects'}></SectionTitle>
@@ -16,7 +17,7 @@ const Projects = () => {
                         <h2 className="card-title">Rabeya Mart</h2>
                         <p>Online Grocery Shop (Ongoing) </p>
                         <div className="card-actions justify-end">
-                            <Link to={'/project-three'}><button className="btn btn-accent">Details <FaArrowRight /> </button></Link>
+                            <Link to={'/project-shop'}><button className="btn btn-accent">Details <FaArrowRight /> </button></Link>
                         </div>
                     </div>
                 </div>
