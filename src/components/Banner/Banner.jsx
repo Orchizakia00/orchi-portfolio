@@ -37,22 +37,22 @@ const Banner = () => {
                             <p className=''>zakiaislam290@gmail.com</p>
                         </div>
                         <div className='flex gap-4 pb-2'>
-                            <div className='flex items-center'>
-                                <FaLinkedin size={20}></FaLinkedin>
-                                <a target="_blank"
-                                    rel="noopener noreferrer"
-                                    href='https://www.linkedin.com/in/zakia-tanzim-orchi-a2263a290/'>
-                                    <p className='btn btn-ghost'>LinkedIn</p>
-                                </a>
-                            </div>
-                            <div className='flex items-center'>
-                                <FaGithub size={20}></FaGithub>
-                                <a target="_blank"
-                                    rel="noopener noreferrer"
-                                    href={'https://github.com/Orchizakia00'}>
-                                    <p className='btn btn-ghost'>GitHub</p>
-                                </a>
-                            </div>
+                            <a target="_blank"
+                                rel="noopener noreferrer"
+                                href='https://www.linkedin.com/in/zakia-tanzim-orchi-a2263a290/'>
+                                <div className='flex items-center btn btn-ghost -ml-[18px]'>
+                                    <FaLinkedin size={20}></FaLinkedin>
+                                    <p className=''>LinkedIn</p>
+                                </div>
+                            </a>
+                            <a target="_blank"
+                                rel="noopener noreferrer"
+                                href={'https://github.com/Orchizakia00'}>
+                                <div className='flex items-center btn btn-ghost'>
+                                    <FaGithub size={20}></FaGithub>
+                                    <p className=''>GitHub</p>
+                                </div>
+                            </a>
                         </div>
                         <div className='flex gap-3 items-center pb-4'>
                             <FaPhoneAlt size={20}></FaPhoneAlt>
